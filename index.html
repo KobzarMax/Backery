@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mill Backery</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header id="header" class="header block">
+            <nav id="headerContainer" class="flex justify-around transition-all duration-300 items-center fixed w-full bg-nav-bg bg-cover top-0 py-3">
+                <button class="burger hidden medium:block z-10">
+                    <span class="burger-line top-line"></span>
+                    <span class="burger-line mid-line"></span>
+                    <span class="burger-line bot-line"></span>
+                </button>
+                <a class="medium:max-w-[100px]" href="#"><img class="medium:w-full" src="./images/header-logo.svg" alt="header-logo"></a>
+                <ul class="flex items-center gap-36 mt-[-50px] megalarge:gap-24 large:gap-12 medium:hidden pt-10">
+                    <li>
+                        <a class="font-euclid text-chocolate_main font-normal text-[22px] large:tetx-[16px]" href="#">Асортимент</a>
+                    </li>
+                    <li>
+                        <a class="font-euclid text-chocolate_main font-normal text-[22px] large:tetx-[16px]" href="#">Про нас</a>
+                    </li>
+                    <li>
+                        <a class="font-euclid text-chocolate_main font-normal text-[22px] large:tetx-[16px]" href="#">Контакти</a>
+                    </li>
+                </ul>
+                <ul id="menu" class="hidden absolute left-0 right-0 top-0 bg-light_muted flex-col items-end p-14">
+                    <li><a class="font-euclid text-chocolate_main font-normal text-[22px]" href="#">Асортимент</a></li>
+                    <li><a class="font-euclid text-chocolate_main font-normal text-[22px]" href="#">Про нас</a></li>
+                    <li><a class="font-euclid text-chocolate_main font-normal text-[22px]" href="#">Контакти</a></li>
+                </ul>
+                <a class="mt-[-50px] text-chocolate_main font-normal text-[22px] px-[38px] py-[10px] border-2 border-solid border-caramel_second rounded-3xl large:text-[16px] large:px-[30px] large:py-[8px] medium:hidden mt-0" href="#">Написати до Telegram</a>
+                <a class="medium:block hidden" href="#"><i class="fa-brands fa-telegram bg-transparent text-chocolate_main text-[24px] rounded-[50%]"></i></a>
+            </nav>
+        </header>
+        <section id="content" class="w-full bg-header-bg bg-no-repeat bg-cover bg-center medium:bg-header-bg-mobile medium:bg-top">
+            <div class="header-content">
+                <div class="content-card mt-11 max-w-[643px] ml-40 medium:m-0 medium:mt-5 medium:my-0 medium:mx-auto medium:w-full medium:text-center">
+                    <div class="content-title">
+                        <span id="break" class="font-euclid text-caramel_second font-normal text-[22px] medium:text-base pt-12 block">Приватна кондитерська</span><span class="block text-chocolate_main text-[136px] font-bold font-cormorant leading-none medium:block medium:text-[36px] medium:ml-0">MILL</span>
+                        <h1 class="inline-block text-chocolate_main text-[136px] font-bold font-cormorant leading-none medium:text-[36px]">BAKERY</h1>
+                    </div>
+                    <div class="content-text mb-[118px] medium:mb-[762px] small:mb-[416px]">
+                        <p class="text-caramel_second text-[22px] font-normal max-w-[474px] medium:text-base medium:max-w-full">Французькі макаронс – ідеальне рішення для святкового столу! </p>
+                    </div>
+                    <a href="#" class="content-btn flex items-center justify-center pb-[220px] megalarge:justify-center medium:pb-[50px] medium:justify-center relative">
+                        <span class="text-caramel_second text-[22px] medium:text-base font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[112px] after:h-[112px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-110%] after:left-[180px] medium:after:w-[60px] medium:after:h-[60px] medium:after:bottom-[-65%] medium:after:left-[130px]">До магазину</span><img class="medium:max-w-[46px]" src="./images/section-arrow.svg" alt="arrow link">
+                    </a>
+                </div>
+            </div>
+            <div class="uderline-wrapper bg-line h-[75px] medium:h-9 medium:bg-center medium:bg-line2">
+            </div>
+        </section>
+        <main class="main">
+            <div class="slider max-w-[1740px] text-center my-0 mx-auto">
+                <h2 class="mt-40 text-chocolate_main font-bold text-[56px] font-cormorant font-bold uppercase medium:text-xl medium:mt-11">Macarons</h2>
+                <p class="mt-6 text-caramel_second text-[18px] mx-auto max-w-[850px] medium:text-base">Ми гарантуємо неймовірні смакові враження від дивовижних смаколиків, які закохають в себе навіть вишуканих гурманів! Настав час придбати хоча б декілька тістечок!</p>
+                <div class="slider_wrapper relative min-w-0 overflow-hidden mt-[82px] mb-16 medium:mt-11">
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-shadow hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-1.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Захер
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-2.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Смородина
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-3.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Фісташка/вишня
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-4.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Білий шоколад/ягоди
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-1.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_maintext-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Захер
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-2.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Смородина
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-3.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Фісташка/вишня
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] px-[15px] my-[20px] transition-all cursor-pointer flex items-center flex-col justify-between medium:h-[240px] w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[270px]">
+                            <img class="w-[100%]" src="./images/macaron-4.png" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[22px] megalarge:text-[16px] font-normal mb-5">
+                            Білий шоколад/ягоди
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] mb-[55px] medium:mb-0 px-8 py-2 medium:py-[6px] hover:bg-caramel_second hover:text-white">
+                            Замовити
+                        </button>
+                    </a>
+                </div>
+                <a href="#" class="content-btn flex items-center justify-center">
+                    <span class="text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[60px] after:h-[60px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-65%] after:left-[180px]">Показати ще</span><img src="./images/section-arrow.svg" alt="arrow link">
+                </a>
+            </div>
+            <div class="info mt-40 medium:mt-16 flex items-start justify-end mb-20 medium:mb-0 medium:items-center medium:justify-between medium:flex-col">
+                <div class="info-textarea max-w-[50%] px-[82px] megalarge:px-10 medium:max-w-full medium:px-5 medium:pb-5">
+                    <h2 class="info-title font-cormorant font-bold text-chocolate_main text-[56px] uppercase megalarge:text-4xl medium:text-xl medium:text-center">
+                        Як роблять MACARONS?
+                    </h2>
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px]">
+                        Ми ручаємося за високу якість наших десертів. Вони виготовлені по оригінальному французькому рецепту. Щоб зберегти неповторну повітряну текстуру тіста, ми використовуємо тільки мигдалеве борошно – саме цей важливий нюанс дозволяє зберегти «ексклюзивно» гладку поверхню печива. При усій своїй візуальній крихкості, тісто неймовірно м’яке й ніжно тане у роті. 
+                    </p>
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px] medium:hidden">
+                        Для виробництва начинок ми використовуємо високоякісний шоколад, натуральні вершки, а також інші натуральні інгредієнти, фруктові й ягідні пюре, барвники та ароматизатори, які не шкодять здоров’ю.
+                    </p>
+                </div>
+                <div class="info-image w-[40%] medium:w-full medium:hidden">
+                    <img class="w-[100%]" src="./images/section-1.jpg" alt="info-image">
+                </div>
+                <div class="hidden medium:block">
+                    <div class="info-image w-[40%] medium:w-full">
+                        <img class="w-[100%]" src="./images/section-1.jpg" alt="info-image">
+                    </div>
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px] medium:px-5 medium:py-5">
+                        Для виробництва начинок ми використовуємо високоякісний шоколад, натуральні вершки, а також інші натуральні інгредієнти, фруктові й ягідні пюре, барвники та ароматизатори, які не шкодять здоров’ю.
+                    </p>
+                </div>
+            </div>
+            <div class="info mt-40 medium:mt-5 flex items-start justify-start mb-20 medium:mb-11 medium:items-center medium:justify-between medium:flex-col">
+                <div class="info-image w-[40%] medium:w-full relative after:content-[''] after:bg-chocolate_main after:w-[8px] after:h-[8px] after:rounded-[50%] after:inline-block after:top-[-2px] after:right-[-2px] after:z-10 after:absolute medium:after:hidden">
+                    <img class="w-[100%]" src="./images/section-2.jpg" alt="info-image">
+                    <img class="absolute top-[-100px] right-[-100px] medium:hidden" src="./images/circle-logo.svg" alt="circle-logo">
+                </div>
+                <div class="info-textarea max-w-[50%] px-[82px] megalarge:px-10 medium:max-w-full medium:px-5 medium:pb-5">
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px] medium:hidden z-10">
+                        Для виробництва начинок ми використовуємо високоякісний шоколад, натуральні вершки, а також інші натуральні інгредієнти, фруктові й ягідні пюре, барвники та ароматизатори, які не шкодять здоров’ю.
+                    </p>
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px] mb-20 medium:mb-10 z-10">
+                        Наприклад, насичений і одночасно природний відтінок тісту надає листя свіжої м’яти та свіжозварений Еспресо, а дивовижний смак кокоса в десерті досягається за допомогою додавання кокосових вершків натурального походження та стружки кокоса. Завдяки цьому ми не лише ручаємося за якість наших макарунс, але й із впевненістю стверджуємо, що вони абсолютно безпечні навіть для маленьких ласунів.
+                    </p>
+                    <a href="#" class="content-btn flex items-center justify-start medium:justify-center">
+                        <span class="text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[60px] after:h-[60px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-65%] after:left-[155px] medium:after:bottom-[-30%] medium:after:left-[165px] medium:after:w-[40px] medium:after:h-[40px]">Замовити</span><img src="./images/section-arrow.svg" alt="arrow link">
+                    </a>
+                </div>
+            </div>
+            <div class="uderline-wrapper bg-line h-[75px] medium:h-9 medium:bg-center medium:bg-line2"></div>
+            <div class="info mt-40 medium:mt-11 flex items-start justify-start mb-20 medium:items-center medium:justify-between medium:flex-col-reverse">
+                <div class="info-image w-[40%] medium:w-full">
+                    <img class="w-[100%] medium:mb-8" src="./images/section-3.jpg" alt="info-image">
+                    <a href="#" class="content-btn flex items-center justify-start medium:justify-center">
+                        <span class="hidden medium:block text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[112px] after:h-[112px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-150%] after:left-[165px] medium:after:bottom-[-30%] medium:after:left-[190px] medium:after:w-[40px] medium:after:h-[40px]">Показати ще</span><img class="hidden medium:block" src="./images/section-arrow.svg" alt="arrow link">
+                    </a>
+                </div>
+                <div class="info-textarea max-w-[50%] px-[82px] megalarge:px-10 medium:max-w-full medium:px-5 medium:pb-5">
+                    <h2 class="info-title font-cormorant font-bold text-chocolate_main text-[56px] uppercase megalarge:text-4xl medium:text-xl medium:text-center">
+                        ДЕСЕРТИ MACARONS
+                    </h2>
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px] mb-20 medium:mb-5">
+                        Макаруни – маленькі, майже невагомі десерти з тоненькою кірочкою й повітряною начинкою. Це десерт, в якому майстерність кондитерів зійшлася в поєдинку з магією смаку, легкістю подання та дизайнерським підходом до презентації. 
+                    </p>
+                    <a href="#" class="content-btn flex items-center justify-start medium:justify-center">
+                        <span class="text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[60px] after:h-[60px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-65%] after:left-[185px] medium:hidden">Показати ще</span><img class="medium:hidden" src="./images/section-arrow.svg" alt="arrow link">
+                    </a>
+                </div>
+            </div>
+            <div class="info mt-40 medium:mt-5 flex items-start justify-end mb-20 medium:items-center medium:justify-between medium:flex-col">
+                <div class="info-textarea max-w-[50%] px-[82px] megalarge:px-10 medium:max-w-full medium:px-5 medium:pb-5">
+                    <h2 class="info-title font-cormorant font-bold text-chocolate_main text-[56px] uppercase megalarge:text-4xl medium:text-xl medium:text-center">
+                        <span class="medium:hidden">ПОДАРУНКОВІ</span> НАБОРИ MACARONS
+                    </h2>
+                    <p class="info-text text-[22px] text-caramel_second megalarge:text-[16px] mb-20 medium:mb-5">
+                        Авторські та класичні десерти Макаронс від Mill Bakery! Це кругле ніжне печиво стане справжньою окрасою вашого застілля! Кожному кольоровому відтінку макаронс відповідає власний, унікальний смак.
+                    </p>
+                    <a href="#" class="content-btn flex items-center justify-start">
+                        <span class="text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[60px] after:h-[60px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-65%] after:left-[185px] medium:hidden">Показати ще</span><img class="medium:hidden" src="./images/section-arrow.svg" alt="arrow link">
+                    </a>
+                </div>
+                <div class="info-image w-[40%] medium:w-full relative after:content-[''] after:bg-chocolate_main after:w-[8px] after:h-[8px] after:rounded-[50%] after:inline-block after:top-[-2px] after:left-[-2px] after:z-10 after:absolute medium:after:hidden">
+                    <img class="w-[100%] medium:mb-8" src="./images/section-4.jpg" alt="info-image">
+                    <img class="absolute top-[-100px] left-[-100px] medium:hidden" src="./images/circle-logo.svg" alt="circle-logo">
+                    <a href="#" class="content-btn flex items-center justify-start medium:justify-center">
+                        <span class="hidden medium:block text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[112px] after:h-[112px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-150%] after:left-[165px] medium:after:bottom-[-30%] medium:after:left-[190px] medium:after:w-[40px] medium:after:h-[40px]">Показати ще</span><img class="hidden medium:block" src="./images/section-arrow.svg" alt="arrow link">
+                    </a>
+                </div>
+            </div>
+            <div class="desserts max-w-[1740px] mx-auto my-0">
+                <div class="dessetrs-head text-center max-w-[850px] mx-auto my-0">
+                    <h2 class="text-chocolate_main text-[56px] uppercase mb-6 font-bold font-cormorant medium:text-xl">
+                        Авторські дЕсерти 
+                    </h2>
+                    <p class="text-[18px] text-caramel_second font-normal medium:text-base medium:px-6">
+                        Ми гарантуємо неймовірні смакові враження від дивовижних смаколиків, які закохають в себе навіть вишуканих гурманів! Настав час придбати хоча б декілька тістечок!
+                    </p>
+                </div>
+                <div class="desserts-slider_wrapper relative min-w-0 overflow-hidden mt-[82px] mb-16 medium:mt-11 medium:mb-8">
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-1.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Чизкейк Орео
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-2.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Мусовий Десерт Манго-маракуя
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-3.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Горішок
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-4.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Київський торт
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-1.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Чизкейк Орео
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-2.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Мусовий Десерт Манго-маракуя
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-3.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Горішок
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                    <a class="slider-card mx-[40px] medium:mx-[20px] my-[20px] px-2 cursor-pointer flex items-center flex-col justify-between medium:h-[280px] max-w-[370px] hover:shadow-xl hover:shadow-shadow_color hover:rounded-2xl" style="width: 370px;">
+                        <div class="slider-card_image-wrapper max-w-[200px] pt-5 pb-2">
+                            <img class="w-[100%]" src="./images/dessert-4.jpg" alt="macaron">
+                        </div>
+                        <div class="card-name text-chocolate_main text-[20px] text-center font-normal mb-2 medium:text-[14px]">
+                            Київський торт
+                        </div>
+                        <button class="card-button border-2 border-caramel_second rounded-[25px] px-8 py-[6px] mb-5 hover:bg-caramel_second hover:text-white medium:text-[12px]">
+                            Замовити
+                        </button>
+                    </a>
+                </div>
+                <a href="#" class="content-btn flex items-center justify-center">
+                    <span class="text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[60px] after:h-[60px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-65%] after:left-[180px]">Показати ще</span><img src="./images/section-arrow.svg" alt="arrow link">
+                </a>
+            </div>
+            <div class="connect flex items-start justify-between mt-[180px] mb-[160px] medium:mb-[74px] medium:flex-col-reverse medium:mt-16">
+                <div class="contact-form_wrapper max-w-[35%] medium:max-w-full mx-20 medium:mx-auto small:mx-10">
+                    <div class="form-head text-center mb-24 medium:mb-8 medium:mt-11">
+                        <h2 class="uppercase text-chocolate_main font-cormorant font-bold text-[54px] mb-6 megalarge:text-[30px] medium:text-xl">
+                            ЗВ'ЯЖИСЬ З НАМИ!
+                        </h2>
+                        <p class="text-caramel_second tetx-[18px] medium:text-base">
+                            Залиште контакти і ми обов'язково зв'яжемося з вами
+                        </p>
+                    </div>
+                    <form action="" class="contact-form flex items-end justify-between flex-col">
+                        <input class="block w-[100%] py-2 placeholder:text-light_muted border-b-[1px] border-caramel_second mb-10" placeholder="Ім'я" type="text" name="name" id="nameIntup">
+                        <input class="block w-[100%] py-2 placeholder:text-light_muted border-b-[1px] border-caramel_second mb-10" placeholder="Телефон" type="tel" name="email" id="telInput">
+                        <input class="block w-[100%] py-2 placeholder:text-light_muted border-b-[1px] border-caramel_second mb-10" placeholder="Ел. пошта" type="email" name="email" id="emailInput">
+                        <input class="block w-[100%] py-2 placeholder:text-light_muted border-b-[1px] border-caramel_second mb-[104px] medium:mb-11" placeholder="Повідомлення" type="text" name="text" id="textInput">
+                        <button type="submit" class="content-btn flex items-end justify-end mr-[45px] medium:justify-center">
+                            <span class="text-caramel_second text-[18px] font-normal mr-4 relative after:content-[''] after:border-[2px] after:rounded-[50%] after:w-[112px] after:h-[112px] after:border-caramel_second after:bg-transparent after:absolute after:block after:bottom-[-165%] after:left-[150px] medium:after:bottom-[-45%] medium:after:left-[175px] medium:after:w-[40px] medium:after:h-[40px]">Відправити</span><img src="./images/section-arrow.svg" alt="arrow link">
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-image_wrapper max-w-[61%] medium:max-w-full">
+                    <img class="w-[100%]" src="./images/contact.jpg" alt="contact image">
+                </div>
+            </div>
+        </main>
+        <footer class="footer bg-chocolate_main">
+            <div class="footer-wrapper flex items-start justify-around py-20 medium:py-11 border-b-2 border-light_muted large:justify-between medium:flex-col medium:items-center">
+                <a class="medium:max-w-[100px]" href="#"><img class="medium:w-[100%]" src="./images/footer-logo.svg" alt="header-logo"></a>
+                <div class="flex items-start justify-between medium:flex-col-reverse medium:items-center medium:text-center">
+                    <div class="contact mr-10 medium:w-full medium:mt-12 medium:text-start medium:px-5 medium:mr-0">
+                        <p class="uppercase text-light_muted text-[22px] mb-6 megalarge:text-[18px] large:text-base medium:text-sm">
+                            КОНТАКТИ
+                        </p>
+                        <ul>
+                            <li class="text-light_muted text-[22px] mb-3 megalarge:text-[18px] large:text-base">Приватна кондитерська MILL BAKERY</li>
+                            <li class="text-light_muted text-[22px] mb-3 megalarge:text-[18px] large:text-base">Адреса: <span class="font-bold medium:font-normal">м. Київ, вул. Луценка, 12</span></li>
+                            <li class="text-light_muted text-[22px] mb-3 megalarge:text-[18px] large:text-base">Телефон: <a class="font-bold medium:font-normal" href="tel:+38(063)3429323"><span>+38 (063) 342 9323</span></a></li>
+                            <li class="text-light_muted text-[22px] mb-6 megalarge:text-[18px] large:text-base">Ел. пошта: <a class="font-bold medium:font-normal" href="mailto:"><span>olya@millbakery.co</span></a></li>
+                        </ul>
+                        <ul class="medium:flex items-center medium:justify-start">
+                            <li><a class="text-light_muted text-[22px] megalarge:text-[18px] large:text-base font-semibold uppercase" href="#"><i class="fa-brands fa-instagram text-center align-middle text-xl p-[6px] mr-3 text-chocolate_main bg-light_muted rounded-xl"></i><span class="medium:hidden">MILL BAKERY</span></a></li>
+                            <li><a class="text-light_muted text-[22px] megalarge:text-[18px] large:text-base font-semibold uppercase" href="#"><i class="fa-brands fa-square-facebook text-center align-middle text-xl p-[6px] mr-3 text-chocolate_main bg-light_muted rounded-xl"></i><span class="medium:hidden">MILL BAKERY</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="discont max-w-[645px] megalarge:max-w-[405px] large:max-w-[300px] medium:max-w-full medium:text-center medium:mt-11 medium:px-5">
+                        <p class="uppercase text-light_muted text-[22px] mb-6 megalarge:text-[18px] large:text-base">
+                            Спеціальні пропозиції та знижки
+                        </p>
+                        <p class="text-light_muted text-[22px] mb-8 megalarge:text-[18px] large:text-base text-left">
+                            Підпишись, щоб отримувати ел. листи про спеціальні пропозиції щодо надходження нових десертів!
+                        </p>
+                        <input class="block w-[75%] py-2 tetx-light_muted bg-transparent placeholder:text-light_muted border-b-[1px] border-caramel_second mb-10 medium:w-[100%]" placeholder="Ел. пошта" type="email" name="saleEmail" id="saleEmailInput">
+                        <button class="py-[10px] px-[38px] text-chocolate_main bg-light_muted rounded-[25px] medium:mr-0">
+                            Підписатися
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-underline text-center">
+                <p class="text-light_muted text-[18px] font-normal py-6 bg-chocolate_main">© 2022 Mill Bakery</p>
+            </div>
+        </footer>
+
+    <script src="https://kit.fontawesome.com/e50b17d262.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/slick.min.js"></script>
+</body>
+</html>

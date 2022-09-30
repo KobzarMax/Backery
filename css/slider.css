@@ -1,0 +1,99 @@
+
+.slider .slick-list {
+    overflow: hidden;
+}
+
+.slider .slick-track{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: -20px;
+    z-index: -1 !important;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+.slider .slick-arrow.slick-prev{
+    left: 0%;
+    background-image: url(../images/slider-prew.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1.5px solid #715336;
+    border-radius: 50%;
+    z-index: 10 !important;
+}
+
+.slider .slick-arrow.slick-next{
+    right: 0;
+    background-image: url(../images/slider-next.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1.5px solid #715336;
+    border-radius: 50%;
+    background-color: #715336;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .slider .slick-arrow.slick-prev{
+        display: none;
+    }
+    .slider .slick-arrow.slick-next{
+        display: none;
+    } 
+}
+
+.slider-card:hover {
+    box-shadow: 4px 4px 25px 5px rgba(238, 216, 196, 0.35);
+    border-radius: 15px;
+}
+
+.desserts .slick-list {
+    overflow: hidden;
+}
+
+.desserts .slick-track{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desserts .slick-arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 768px) {
+    .desserts .slick-arrow{
+        display: none;
+    }   
+}
+.desserts .slick-arrow.slick-prev{
+    left: 0%;
+    background-image: url(../images/slider-prew.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1.5px solid #715336;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.desserts .slick-arrow.slick-next{
+    right: 0;
+    background-image: url(../images/slider-next.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1.5px solid #715336;
+    border-radius: 50%;
+    background-color: #715336;
+    z-index: 10;
+}
